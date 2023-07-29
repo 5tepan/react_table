@@ -8,16 +8,54 @@
     font-weight: normal;
     width: 114px;
     height: 54px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .headerTitle {
     font-weight: normal;
     width: 529px;
     height: 54px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .headerBody {
     font-weight: normal;
     width: 443px;
     height: 54px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .headerId, .headerTitle, .headerBody {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .headerId {
+        width: 20%;
+    }
+
+    .headerTitle {
+        width: 40%;
+    }
+
+    .headerBody {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .headerId {
+        width: 15%;
+    }
+
+    .headerTitle {
+        width: 50%;
+    }
+
+    .headerBody {
+        width: 35%;
+    }
 }

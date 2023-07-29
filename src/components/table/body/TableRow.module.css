@@ -6,3 +6,25 @@
     border: 1px solid #E3E6EC;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .td {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .postId {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .td {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .postId {
+        font-size: 18px;
+    }
+}
