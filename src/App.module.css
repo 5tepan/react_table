@@ -1,16 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #root {
     display: flex;
     justify-content: space-between;
 }
 
 .app {
-    width: 800px;
+    width: 1076px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
