@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+}

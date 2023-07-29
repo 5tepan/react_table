@@ -1,0 +1,13 @@
+.button {
+    color: #474955;
+    background-color: transparent;
+    border: transparent;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

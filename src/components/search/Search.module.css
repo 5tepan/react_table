@@ -1,0 +1,9 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    background-color: #5A5C66;
+    transform: translateX(-200%);
+}

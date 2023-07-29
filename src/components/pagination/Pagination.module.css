@@ -1,0 +1,22 @@
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    padding: 10px;
+    color: #474955;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.currentPage {
+    color: #7EBC3C;
+}
+
+.pagesGroup {
+    margin-left: 250px;
+    margin-right: 250px;
+}

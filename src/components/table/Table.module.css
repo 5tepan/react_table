@@ -1,0 +1,23 @@
+.table {
+    border: 1px solid #E3E6EC;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.headerId {
+    font-weight: normal;
+    width: 114px;
+    height: 54px;
+}
+
+.headerTitle {
+    font-weight: normal;
+    width: 529px;
+    height: 54px;
+}
+
+.headerBody {
+    font-weight: normal;
+    width: 443px;
+    height: 54px;
+}
